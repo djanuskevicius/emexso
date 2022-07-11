@@ -1,0 +1,12 @@
+.img-animation {
+  animation: bouncing 3s infinite alternate linear;
+}
+
+@keyframes bouncing {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}

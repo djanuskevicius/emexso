@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  
+  #hero-area .container {
+    flex-direction: column;
+    text-align: center;
+
+    img {
+      width: 70%;
+      margin: 50px auto;
+    }
+
+    .content {
+      width: 90%;
+      margin: auto;
+
+      a {
+        display: inline-block;
+        width: 70%;
+      }
+
+      span {
+        display: block;
+        margin-top: 15px;
+      }
+    }
+  }
+}
